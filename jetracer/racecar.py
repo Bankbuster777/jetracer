@@ -1,6 +1,5 @@
 import traitlets
 
-
 class Racecar(traitlets.HasTraits):
     steering = traitlets.Float()
     throttle = traitlets.Float()
